@@ -3,44 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Motovlogs & Travel</title>
+  <title>Motovlog & Travel</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>🏍️ Motovlogs & Travel Adventures</h1>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">🏍️ MotoAdventures</div>
     <nav>
       <a href="index.html">Home</a>
-      <a href="#">Blogs</a>
-      <a href="#">Videos</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="videos.html">Videos</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <main>
-    <section class="hero">
-      <h2>Ride. Explore. Inspire.</h2>
-      <p>Welcome to my motovlog and travel diary. Join me on motorcycle journeys around the world!</p>
-    </section>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Ride. Explore. Inspire.</h1>
+      <p>Join me on epic motorcycle journeys around the world 🌍</p>
+      <a href="videos.html" class="btn">Watch Latest Vlog</a>
+    </div>
+  </section>
 
-    <section class="content">
-      <article>
-        <h3>Latest Blog: Riding the Himalayas</h3>
-        <p>One of the best motorcycle adventures I’ve ever had...</p>
-        <a href="#">Read more →</a>
-      </article>
+  <!-- Featured Blog -->
+  <section class="featured">
+    <h2>🌄 Featured Blog</h2>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Himalayas Ride">
+      <div class="card-content">
+        <h3>Riding the Himalayas</h3>
+        <p>An unforgettable ride through snow peaks and winding roads.</p>
+        <a href="blogs.html">Read More →</a>
+      </div>
+    </div>
+  </section>
 
-      <article>
-        <h3>Featured Video</h3>
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-      </article>
-    </section>
-  </main>
+  <!-- Video Section -->
+  <section class="videos">
+    <h2>🎥 Latest Vlogs</h2>
+    <div class="grid">
+      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Motovlogs & Travel | All Rights Reserved</p>
-    <!-- Future: AdSense code will go here -->
+    <p>© 2025 MotoAdventures | All Rights Reserved</p>
+    <p>Follow me: 
+      <a href="#">Instagram</a> | 
+      <a href="#">YouTube</a> | 
+      <a href="#">Twitter</a>
+    </p>
   </footer>
 </body>
 </html>
